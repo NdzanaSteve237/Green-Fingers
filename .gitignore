@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+vendor/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration sensibles
+.env
+config.php
+
+# Dossiers de build
+dist/
+build/

@@ -1,0 +1,39 @@
+<!-- Fixed Header -->
+<app-header />
+
+<!-- Cart Sidebar (fixed overlay) -->
+<app-cart-sidebar />
+
+<!-- Main Content -->
+<main>
+  <app-hero />
+  <app-features />
+  <app-products />
+  
+  <!-- Promo Banner Parallax Section -->
+  <section class="promo-banner" data-parallax data-parallax-speed="0.12" data-parallax-clamp="40">
+    <div class="parallax-bg" data-parallax data-parallax-speed="0.26" data-parallax-clamp="90"></div>
+    <div class="promo-overlay"></div>
+    <div class="container promo-content">
+      <div class="promo-text" data-parallax data-parallax-speed="0.08" data-parallax-clamp="30">
+        <span class="promo-eyebrow">Offre Spéciale</span>
+        <h2>Commandez aujourd'hui,<br>vivez sainement demain</h2>
+        <p>Des produits 100% naturels pour prendre soin de votre santé au quotidien. Livraison soignée partout au Cameroun.</p>
+      </div>
+      <div class="promo-action" data-parallax data-parallax-speed="0.15" data-parallax-reverse="true" data-parallax-clamp="40">
+        <button class="btn-primary btn-large" (click)="scrollToProducts()">
+          Voir tous les produits →
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <app-about />
+  <app-process />
+  <app-testimonials />
+  <app-blog />
+  <app-contact />
+</main>
+
+<!-- Footer -->
+<app-footer />
